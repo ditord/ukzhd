@@ -22,8 +22,11 @@
 
     <!-- Custom Fonts -->
     <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
+        type='text/css'>
+    <link
+        href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+        rel='stylesheet' type='text/css'>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -59,12 +62,13 @@
                 <div class="row">
                     <div class="locations">
                         <p>
-                            <select id="city" name="Մեկնակետ">
-                                    <option value="1">Գյումրի</option>
-                                    <option value="2">Երևան</option>
-                                  </select>
-                            <button id="submit">Թարմացնել</button>
-                            <span id="info">Հաջորդ գնացքը`</span> <input type="text" id="nexttrain" value="" placeholder="00:00" size="10">
+                            <select id="city" name="Մեկնակետ" onchange="showNextTrain();">
+                                <option value="1">Գյումրի</option>
+                                <option value="2">Երևան</option>
+                            </select>
+                            <!--  <button id="submit" onclick="showNextTrain();">Թարմացնել</button>-->
+                            <span id="info">Հաջորդ գնացքը`</span> <input type="text" id="nexttrain" value=""
+                                placeholder="00:00" size="10" disabled>
                         </p>
                     </div>
                 </div>
@@ -72,7 +76,7 @@
                 <!-- End Forms  -->
 
                 <!-- Update notice -->
-                <h3>Տվյալները թարմացված են 2020թ. օգոստոսի 10֊ի դրությամբ</h3>
+                <h3>Տվյալները թարմացված են 2020թ. հուլիսի 9֊ի դրությամբ</h3>
                 <!-- End Update Notice -->
                 <!-- Start Timetable -->
                 <div class="col-lg-6 col-md-6">
@@ -114,7 +118,8 @@
                 </div>
                 <!-- End Timetable -->
 
-                <p><a href="http://ukzhd.am/raspisanie/arm/raspisanie1.html" target="_blank">Տվյալները վերցված են «Հարավկովկասյան երկաթուղիների» չվացուցակից</a></p>
+                <p><a href="http://ukzhd.am/raspisanie/arm/raspisanie1.html" target="_blank">Տվյալները վերցված են
+                        «Հարավկովկասյան երկաթուղիների» չվացուցակից</a></p>
             </div>
         </div>
 

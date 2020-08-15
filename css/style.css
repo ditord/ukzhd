@@ -8,6 +8,8 @@
 }
 
 #info {
+  margin-right:15px ;
+  margin-left: 15px;
   color: white;
   font-weight: bold;
 }
@@ -19,3 +21,13 @@ red = #84222f
 light shadow = #7C614B
 
 */
+#nexttrain{
+  background-color:white;
+  border: 1px solid grey;
+  margin:2px 0px;
+  height: 100%;
+  
+}
+#city {
+  height: 100%;
+}
